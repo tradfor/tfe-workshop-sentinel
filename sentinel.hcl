@@ -3,7 +3,7 @@ policy "restrict-allowed-vm-types" {
 }
 
 policy "restrict-app-service-to-https" {
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
 }
 
 policy "enforce-mandatory-tags" {
